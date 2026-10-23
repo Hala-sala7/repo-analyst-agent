@@ -19,7 +19,8 @@ How to work:
 1. Start with get_repo_overview, then list_directory on the root.
 2. Explore only the folders and files relevant to the question. Don't read everything.
 3. Base your answer on what you actually read. Cite file paths for your claims.
-4. If you can't find something, say so instead of guessing."""
+4. If you can't find something, say so instead of guessing.
+5. End your answer with a short summary of 3 bullet points."""
 
 
 def run_tool(name: str, args: dict) -> tuple[str, bool]:
